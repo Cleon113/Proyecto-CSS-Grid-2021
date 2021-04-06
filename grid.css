@@ -18,6 +18,14 @@ body {
 
 .container {
     display: grid;
-    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+    grid-template: repeat(20, 1fr) / repeat(10, 1fr);
     height: 100vh;
-  }
+}
+
+.foto-principal{
+    background-image: url(https://cdn.discordapp.com/attachments/693323074887483432/829103893186347038/principal.png);
+    grid-column: 5 / 7;
+    grid-row: 6 / 16;
+    background-size: 100%;
+    justify-items: center;
+}
