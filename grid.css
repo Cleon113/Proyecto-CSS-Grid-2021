@@ -80,8 +80,10 @@ body {
 .texto {
     color: var(--blue);
     font-size: 20px;
-    grid-column: 13 / 16;
-    grid-row: 6 / 9;
+    grid-column: 12 / 13;
+    grid-row: 6 / 18;
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
     text-align: center;
 }
 
